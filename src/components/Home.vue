@@ -6,7 +6,12 @@
 
 <script>
 export default {
-    name: 'home'
+    name: 'home',
+    methods: {
+        load() {
+            // this.$request.delete('/sjhdb',)
+        }
+    }
 }
 </script>
 
